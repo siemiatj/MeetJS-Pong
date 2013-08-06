@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>MeetJS Pong</title>    
+<style type="text/css">
+    body {
+        text-align:center;
+    }
+
+    #container {
+        width:300px;
+        height:300px;
+        border-top:1px solid black;
+        border-left:1px solid black;
+        border-right:1px solid black;
+        position:relative;
+    }
+
+    #pad{
+        width:40px;
+        height:5px;
+        background: black;
+        position:absolute;
+        left:0;
+        top:295px;
+    }
+
+    #ball {
+        width:10px;
+        height: 10px;
+        border-radius: 5px;
+        background: black;
+        position:absolute;
+    }
+</style>
+</head>
+<body>
+    <div id="container">
+        <div id="pad">
+        </div>
+    </div>
+<script src="pong.js"></script>
+</body>
+</html>
